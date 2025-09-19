@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css style  -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=telma@300,400,500,700,900,1&f[]=pencerio@50&f[]=tabular@300,301,400,401,500,501,600,601,700,701,1,2&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- wow link style  -->
+    
+  </head>
+  <body>
+    <div class="reser" id="reser">
+      <div class="res-bg">
+        <i class="fa-solid fa-xmark" id="x"></i>
+        <div class="text">
+          <h3>Book tabel</h3>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Phone Number">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="How Many">
+          <input type="date" placeholder="Booking Date">
+          <input type="time"placeholder="Time">
+          <textarea name="" id="" cols="30" rows="2" placeholder="Add A Speical Request (opation)"></textarea>
+        </form>
+        <button>Find Table</button>
+      </div>
+    </div>
+    <header class="header" id="header">
+      <nav>
+        <a href="#home" class="logo">Restaurant</a>
+        <i id="openmenu" class="fa-solid fa-bars"></i>
+        <i id="book" class="fa-solid fa-utensils"></i>
+        <div class="menu">
+          <ul>
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#recipes">recipes</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#team">team</a></li>
+          </ul>
+          <a href="#" class="btn" id="r">reservation</a>
+          <div id="con-hm" class="control-home">
+            <button class="btn" id="prev">prev</button>
+            <button class="btn" id="next">next</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="up" id="up">up</div>
+
+    <!-- start home  -->
+    <section id="home" class="home">
+      <div class="home-slider">
+        <!--swiper-->
+        <div class="wrapper bg">
+          <!--swiper-wrapper-->
+          <div class="slide slide1 active">
+            <div
+              class="content"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              >
+              <h3>made with love</h3>
+              <h1>hot and ready to serve</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus <br />quam itaque repellat nihil eum qui dolores
+                doloremque placeat fugit fugiat.
+              </p>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div
+              class="content"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              
+              <h3>Restaurant offers you</h3>
+              <h1>the best testing experience!</h1>
+              <a href="#" class="btn">get a reservation now </a>
+            </div>
+          </div>
+          <div class="slide slide3">
+            <div
+              class="content"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <h3>hello, we are Restaurant</h3>
+              <h1>we serve Quality food</h1>
+              <a href="#" class="btn">view menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home  -->
+    <!-- start about  -->
+    <section class="about-sec" id="about">
+      <div class="container">
+        <div
+          class="sec-head"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <span>Hello dear</span>
+          <h2>welcome to Restaurant</h2>
+          <img src="./img/shape-4.png" alt="" />
+        </div>
+        <div class="content">
+          <div class="p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+            repellendus minus ab pariatur repudiandae optio sunt exercitationem
+            explicabo officiis unde. Incidunt nihil qui animi voluptates minmiam
+          </div>
+          <div class="boxs">
+            <div
+              class="box"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span>1985</span>
+              <h3>Grand opening</h3>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Veniam
+                dolores commodi aspernatur ipsam, voluptatibus accusantium!
+              </div>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span>2006</span>
+              <h3>second branch</h3>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Maxime
+                asperiores similique, sapiente at atque illum.
+              </div>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span>2013</span>
+              <h3>Great test award</h3>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque
+                similique non ab pariatur aliquid, reprehenderit facilis
+                delectus assumenda.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about  -->
+    <!-- start recipes  -->
+    <section id="recipes" class="recipes-sec">
+      <div class="small-sec">
+        <div class="arrow-top"></div>
+        <div
+          class="sec-head"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <span>natural ingredients</span>
+          <h2>delicious recipes</h2>
+          <img src="./img/shape-4.png" alt="" />
+        </div>
+        <div class="arrow-bottom"></div>
+      </div>
+      <div class="container">
+        <div class="boxs">
+          <div
+            class="box box1"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/rec-1.jpg" alt="" />
+            <span>strat eating better </span>
+            <h3>daily New frech menus</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+              laborum explicabo necessitatibus, quaerat cum nihil.
+            </div>
+          </div>
+          <div class="c">
+            <div
+              class="box"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <img src="./img/rec-2.jpg" alt="" />
+              <span>Quality is the heart</span>
+              <h3>frech ingredient, tasty meals</h3>
+              <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+                laborum explicabo necessitatibus, quaerat cum nihil.
+              </div>
+            </div>
+            <div
+              class="box"
+              data-aos="flip-down"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <img src="./img/rec-3.jpg" alt="" />
+              <span>hot & ready to serve </span>
+              <h3>creative & talented chefs</h3>
+              <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+                laborum explicabo necessitatibus, quaerat cum nihil.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about  -->
+    <!-- start menu  -->
+    <section id="menu" class="menu">
+      <div class="small-sec">
+        <div class="arrow-top"></div>
+        <div
+          class="sec-head"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <span>natural ingredients</span>
+          <h2>delicious menu</h2>
+          <img src="./img/shape-4.png" alt="" />
+        </div>
+        <div class="arrow-bottom"></div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <ul>
+            <li class="item1">lunch</li>
+            <li>dinner</li>
+            <li>dessert</li>
+            <li>drinks</li>
+          </ul>
+        </div>
+        <div class="boxs">
+          <div
+            class="box"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/menu-1.jpg" alt="" />
+            <div class="name-price">
+              <h3>grilled fillet</h3>
+              <span>$12.95</span>
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/menu-2.jpg" alt="" />
+            <div class="name-price">
+              <h3>grilled fillet</h3>
+              <span>$15</span>
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/menu-3.jpg" alt="" />
+            <div class="name-price">
+              <h3>chicken breast</h3>
+              <span>$13.26</span>
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/menu-4.jpg" alt="" />
+            <div class="name-price">
+              <h3>sea trout</h3>
+              <span>$11.5</span>
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/menu-5.jpg" alt="" />
+            <div class="name-price">
+              <h3>smoked paprika hummus</h3>
+              <span>$10.36</span>
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img src="./img/menu-6.jpg" alt="" />
+            <div class="name-price">
+              <h3>roasted steak roulade</h3>
+              <span>$10</span>
+            </div>
+            <div class="p">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end menu  -->
+    <!-- strart team  -->
+    <section id="team">
+      <div class="small-sec">
+        <div class="arrow-top"></div>
+        <div
+          class="sec-head"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <span>ready to serve</span>
+          <h2>talented chefs</h2>
+          <img src="./img/shape-4.png" alt="" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="boxs">
+          <div class="box" 
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <div class="img-text">
+              <img src="./img/chef-1.jpg" alt="" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <div class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui, ex.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="titel">
+              <h3>Mohamed Yasen</h3>
+              <span>CEO</span>
+            
+            </div>
+          </div>
+          <div class="box"             
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-daly="100"
+            data-aos-easing="ease-in-out">
+            <div class="img-text">
+              <img src="./img/chef-2.jpg" alt="" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <div class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui, ex.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                        <div class="titel">
+              <h3>Ahmed Yaser</h3>
+              <span>Master chef</span>
+            </div>
+          </div>
+                    <div class="box" 
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <div class="img-text">
+              <img src="./img/chef-3.jpg" alt="" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <div class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui, ex.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="titel">
+              <h3>Mostafa Mahmoud</h3>
+              <span>CHef</span>
+            
+            </div>
+          </div>
+                    <div class="box" 
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <div class="img-text">
+              <img src="./img/chef-4.jpg" alt="" />
+              <div class="text">
+                <div class="cont-text">
+                  <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <div class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui, ex.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="titel">
+              <h3>Yousef Abdo</h3>
+              <span>Chef</span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end team  -->
+     <!-- start reviews -->
+      <section id="rev">
+              <div class="small-sec">
+        <div class="arrow-top"></div>
+        <div
+          class="sec-head"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <span>ready to active</span>
+          <h2>talented chefs</h2>
+          <img src="./img/shape-4.png" alt="" />
+        </div>
+        <div class="arrow-bottom"></div>
+              </div>
+              <div class="container">
+                <div class="boxs">
+                  <div class="box"             data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                    <div class="stras">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="p">
+                      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, error tempora. Inventore facilis veniam tempore laboriosam sunt aliquam aliquid iure"
+                    </div>
+                    <img src="./img/blog1.png" alt="">
+                    <h6>Ahmed Nabiel</h6>
+                  </div>
+                  <div class="box"             data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                    <div class="stras">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="p">
+                      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, error tempora. Inventore facilis veniam tempore laboriosam sunt aliquam aliquid iure"
+                    </div>
+                    <img src="./img/blog2.png" alt="">
+                    <h6>Mohamed Hany</h6>
+                  </div>
+                                    <div class="box"             data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                    <div class="stras">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="p">
+                      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, error tempora. Inventore facilis veniam tempore laboriosam sunt aliquam aliquid iure"
+                    </div>
+                    <img src="./img/blog3.png" alt="">
+                    <h6>Yaman Elsyed</h6>
+                  </div>
+                </div>
+              </div>
+      </section>
+     <!-- end reviews -->
+      <footer>
+        <div class="container">
+          <div class="boxs">
+            <div class="box">
+              <h3>Follow us</h3>
+              <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+            </div>
+            <div class="box">
+              <h3>Restaurant</h3>
+              <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum impedit reiciendis delectus alias placeat. Aliquam, inventore ipsa excepturi ratione unde quisquam aliquid ad labore debitis?</div>
+            </div>
+            <div class="box">
+              <h3>Neswletter</h3>
+              <form action=""><input type="email" placeholder="subscribe our Neswletter"></form>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="./script.js"></script>
+
+    <!-- aos link js   -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- wow js links  -->
+  </body>
+</html>
